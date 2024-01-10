@@ -1,4 +1,4 @@
-Author architecturas via System Composer
+Author architectures via System Composer
 =========================================
 
 Tutorial on using System Composer for Model-Based System Engineering
