@@ -1,16 +1,21 @@
-function run_mech_explorer(pendulum_type)
+function run_mech_explorer(pendulum_type, filename)
 %#ok<*NASGU>
 
-mdl_name = 'view_mech_explorer';
-load_system(mdl_name);
-mdl_ws = get_param(mdl_name, 'ModelWorkspace');
+data = load(filename);
+Tend = data.torque.Time(end);
 
-setVariablePart(mdl_ws, 'pendulum_type.Value', pendulum_type);
-logsout = evalin('base', 'logsout');
-sim(mdl_name);
+mdl = 'view_mech_explorer';
+load_system(mdl);
+
+set_param(mdl, 'StopTime', num2str(Tend));
+
+mdlws = get_param(mdl, 'ModelWorkspace');
+setVariablePart(mdlws, 'pendulum_type.Value', pendulum_type);
+set_param([mdl '/From File'], 'FileName', filename);
+
+sim(mdl);
 
 pause(5);
-close_system(mdl_name, 0);
+close_system(mdl, 0);
 
 end
-
