@@ -1,4 +1,6 @@
 function run_mech_explorer(pendulum_type, filename)
+% Copyright (C) 2024 Fondazione Istitito Italiano di Tecnologia (IIT)
+% All Rights Reserved.
 %#ok<*NASGU>
 
 data = load(filename);
