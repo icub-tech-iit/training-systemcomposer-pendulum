@@ -17,10 +17,10 @@ setVariablePart(mdlws, 'obstacle_enable.Value', obstacle_enable);
 set_param([mdl '/From File'], 'FileName', filename);
 
 set_param(mdl, 'SimulationCommand', 'Update');
-pause(5);
+pause(3);
 
 sim(mdl);
-pause(5);
+pause(3);
 
 close_system(mdl, 0);
 
