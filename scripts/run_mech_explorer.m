@@ -4,9 +4,9 @@ function run_mech_explorer(pendulum_type, filename)
 %#ok<*NASGU>
 
 data = load(filename);
-Tend = data.torque.Time(end);
+Tend = data.voltage.Time(end);
 
-mdl = 'view_mech_explorer';
+mdl = 'playback_mech_explorer';
 load_system(mdl);
 
 set_param(mdl, 'StopTime', num2str(Tend));
