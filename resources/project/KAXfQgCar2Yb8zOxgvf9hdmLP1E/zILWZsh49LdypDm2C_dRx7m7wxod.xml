@@ -1,4 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <Info File="tests/test_req.mldatx" GroupUUID="" Icon="" Name="test_req" Type="StartUp" Visible="0">
-    <Extension Name="StartUpPrev" Value="db51feb2-94fb-43ae-81f6-93b17e1bdca1"/>
+    <Extension Name="StartUpPrev" Value="462af7fc-1727-4da4-934d-621705297821"/>
 </Info>

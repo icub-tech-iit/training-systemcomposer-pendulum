@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Info File="requirements/req_functional.slreqx" GroupUUID="" Icon="" Name="req_functional" Type="StartUp" Visible="0">
+    <Extension Name="StartUpPrev" Value="db51feb2-94fb-43ae-81f6-93b17e1bdca1"/>
+</Info>
