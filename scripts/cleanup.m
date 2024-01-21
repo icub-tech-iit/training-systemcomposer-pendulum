@@ -4,6 +4,9 @@ bdclose('all');
 % Clear test file from Test Manager
 sltest.testmanager.clear;
 
+% Clear results from Test Manager
+sltest.testmanager.clearResults;
+
 % Close Test Manager
 sltest.testmanager.close;
 
