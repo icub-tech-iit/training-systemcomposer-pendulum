@@ -26,7 +26,8 @@ Run the test suite to verify that the system is working as expected.
 |                        |
 | :--------------------: |
 | ![](./assets/test.png) |
-| ./assets/playback_mech_explorer.mp4 |
+
+https://github.com/icub-tech-iit/training-systemcomposer-pendulum/assets/3738070/806964fd-47a4-47af-8a7e-4d485ba7d0b5
 
 ### 🎓 Assignment
 - Create a further requirement to verify the safety properties of the system when the pendulum gets
