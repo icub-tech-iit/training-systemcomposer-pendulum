@@ -32,7 +32,8 @@ https://github.com/icub-tech-iit/training-systemcomposer-pendulum/assets/3738070
 ### 🎓 Assignment
 - Create a further requirement to verify the safety properties of the system when the pendulum gets
   in contact with an external obstacle while being driven by the controller at a constant velocity: <br>
-  _"The contact shall be detected and the interaction force shall be reduced under $`1`$ $`\text{N}`$ in less than $`1`$ $`\text{s}`$"_.
+  _"The contact shall be detected and the interaction force shall be reduced under $`1`$ $`\text{N}`$ within $`1`$ $`\text{s}`$"_. <br>
+  _"Once the contact is detected, the system stops receiving further set-points"_.
 - Enable the `Test Safety` in the test suite and associate the new requirement to the test case.
 - Modify the controller to take the safety requirement into account.
 - Run the validation test.
