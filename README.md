@@ -31,15 +31,16 @@ https://github.com/icub-tech-iit/training-systemcomposer-pendulum/assets/3738070
 
 ### 🎓 Assignment
 - Create a further requirement to verify the safety properties of the system when the pendulum gets
-  in contact with an external obstacle while being driven by the controller at a constant velocity.
+  in contact with an external obstacle while being driven by the controller at a constant velocity: <br>
+  _"The contact shall be detected and the interaction force shall be reduced under $`1`$ $`\text{N}`$ in less than $`1`$ $`\text{s}`$"_.
 - Enable the `Test Safety` in the test suite and associate the new requirement to the test case.
 - Modify the controller to take the safety requirement into account.
 - Run the validation test.
 
 To complete the assignment do:
-1. [Generate][1] a copy of this repository into your own account. Tick in the option "include all branches" ✔
+1. [Generate][1] a copy of this repository into your account. Tick in the option "include all branches" ✔
 2. [Create the branch][2] `solution` off of the branch `master`.
-3. [Commit][3] into the branch `solution` your defevelopment.
+3. [Commit][3] into the branch `solution` your development.
 4. [Push][4]/sync the changes up to GitHub.
 5. [Create a pull request][5] (**PR**) with `master` as _base branch_ and `solution` as _compare branch_.
 6. [Request to review your PR][6] 👋 to turn in the assignment.
