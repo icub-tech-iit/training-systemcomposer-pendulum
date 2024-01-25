@@ -39,7 +39,7 @@ https://github.com/icub-tech-iit/training-systemcomposer-pendulum/assets/3738070
   _"Once the contact is detected, the system stops receiving further set-points"_.
 - Enable the `Test Safety` in the test suite and associate the new requirement to the test case.
 - Modify the controller to take the safety requirement into account.
-- Run the validation test.
+- Run the test suite to validate your approach.
 
 To complete the assignment do:
 1. [Generate][1] a copy of this repository into your account. Tick in the option "include all branches" ✔
