@@ -49,7 +49,7 @@ To complete the assignment do:
 5. [Create a pull request][5] (**PR**) with `master` as _base branch_ and `solution` as _compare branch_.
 6. [Request to review your PR][6] 👋 to turn in the assignment.
 
-[1]: https://github.com/icub-tech-iit/training-matlab-pendulum/generate
+[1]: https://github.com/icub-tech-iit/training-systemcomposer-pendulum/generate
 [2]: https://help.github.com/articles/creating-and-deleting-branches-within-your-repository
 [3]: https://git-scm.com/docs/git-commit
 [4]: https://help.github.com/articles/pushing-to-a-remote
