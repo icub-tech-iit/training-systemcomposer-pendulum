@@ -1,11 +1,14 @@
 👨‍🔬 Authoring architectures via System Composer
 ===============================================
 
-This tutorial provides a complete system architecture example using System Composer, bulding on the following resources:
+[![View Model and code for a minimum-jerk controller on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/160351-authoring-a-digital-thread-in-system-composer)
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=icub-tech-iit/training-systemcomposer-prendulum)
+
+This tutorial provides a complete system architecture example using System Composer, building on the following resources:
 - https://github.com/icub-tech-iit/training-matlab-pendulum
 - https://github.com/icub-tech-iit/training-simscape-pendulum
 
-In detail, the project consists in a system controlling a pendulum, showing how to deal with:
+In detail, the project consists of a system controlling a pendulum, showing how to deal with:
 - Requirements
 - Architectures
 - Variant subsystems
