@@ -2,7 +2,7 @@
 ===============================================
 
 [![View Model and code for a minimum-jerk controller on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/160351-authoring-a-digital-thread-in-system-composer)
-[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=icub-tech-iit/training-systemcomposer-pendulum)
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=icub-tech-iit/training-systemcomposer-pendulum&file=ControlPendulumArchitecture.prj)
 
 This tutorial provides a complete system architecture example using System Composer, building on the following resources:
 - https://github.com/icub-tech-iit/training-matlab-pendulum
