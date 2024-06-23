@@ -32,9 +32,6 @@ Run the test suite to verify that the system is working as expected.
 
 https://github.com/icub-tech-iit/training-systemcomposer-pendulum/assets/3738070/806964fd-47a4-47af-8a7e-4d485ba7d0b5
 
-> [!warning]
-> To correctly render the simulation outputs, always run all the test cases at once.
-
 ### 🎓 Assignment
 - Create a further requirement to verify the safety properties of the system when the pendulum gets
   in contact with an external obstacle while being driven by the controller at a constant velocity: <br>
