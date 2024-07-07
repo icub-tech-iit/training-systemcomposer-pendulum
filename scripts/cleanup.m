@@ -1,11 +1,11 @@
 % Copyright (C) 2024 Fondazione Istitito Italiano di Tecnologia (IIT)
 % All Rights Reserved.
 
-% Clear test file from Test Manager
-sltest.testmanager.clear;
-
 % Clear results from Test Manager
 sltest.testmanager.clearResults;
+
+% Clear test file from Test Manager
+sltest.testmanager.clear;
 
 % Close Test Manager
 sltest.testmanager.close;
