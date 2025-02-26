@@ -38,7 +38,7 @@ https://github.com/icub-tech-iit/training-systemcomposer-pendulum/assets/3738070
   _"The contact shall be detected and the interaction force shall be reduced under $`1`$ $`\text{N}`$ within $`1`$ $`\text{s}`$"_. <br>
   _"Once the contact is detected, the system stops receiving further set-points"_.
 - Enable the `Test Safety` in the test suite and associate the new requirement to the test case.
-- Modify the controller to take the safety requirement into account.
+- Modify the controller to take the safety requirement into account. All the usable inputs are already made available to the controller.
 - Run the test suite to validate your approach.
 
 To complete the assignment do:
